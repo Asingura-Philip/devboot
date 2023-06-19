@@ -7,9 +7,9 @@ how good the movie was.
 less than or equal to 3 stars: awful*/
 //let numStars;
 function getLabel(numStars) {
-    if(numStars >= 8){
+    if(numStars >= 8 && numStars <= 10){
         return "great";
-    }if(numStars >= 4){
+    }if(numStars >= 4 && numStars <= 7){
         return "okay";
     }else{
         return "awful";
